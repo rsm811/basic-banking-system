@@ -1,0 +1,95 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url('betterbanking-1080x675.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+  .main-heading {
+    font-family: "Lucida Handwriting", cursive;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-top: 1.875rem;
+    text-align: center;
+  }
+  
+  .header i {
+    color: #ffffff;
+    
+    border-radius: 50%;
+    position: absolute;
+    right: 70px;
+    top: 40px;
+    opacity: 0.6;
+  }
+  
+  .header i:hover {
+    opacity: 0.8;
+  }
+  
+  .customer-table {
+    padding-top: 5%;
+    padding-left: 18%;
+  }
+  
+  table th, td {
+    border: 1px solid #ffffff;
+    width: 40%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.3rem;
+  }
+  
+  th {
+    font-family: "Comic Sans MS", cursive;
+    color: #ffffff;
+    border-radius: 5px;
+    background-image: linear-gradient(#0033cc, #002080);
+  }
+  
+  td {
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bolder;
+    color: #000000;
+    background-color: #99ccff;
+    opacity: 0.7;
+  }
+  
+  td:hover {
+    opacity: 1.0;
+  }
+
+  .btn{
+    margin:70px auto 0;
+    align-items: center;
+    text-align: center;
+
+  }
+.btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 0;
+    color: #000;
+    border: .10px solid #000;
+    position: relative;
+    z-index: 1;
+    transition: color .5s ;
+  }
+.btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: #00b894;
+    z-index: -1;
+    transition: .5s;
+  }
+
+.btn a:hover span{
+    width: 100%;
+  }
+.btn a:hover{
+    color: black;
+  }
